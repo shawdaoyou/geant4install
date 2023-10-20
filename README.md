@@ -9,16 +9,16 @@ https://geant4.web.cern.ch/download/all \
 ![image](https://github.com/daoy939/geant4install/assets/65938631/d3f9473e-bb78-4ab5-b410-1ea74296e6c8)
 
 2.准备安装文件\
-在~目录下面创建一个geant4的文件夹\
+在\~目录下面创建一个geant4的文件夹\
 将下载好的14个文件移动到这个文件夹下(~/geant4/) \
 
 3.打开终端，执行以下命令\
 ps:-j6换成自己电脑的核心数\
-cd ~  && \\
+cd ~  && \  
 sudo cp -r geant4/ /usr/local/  && \ 
 cd /usr/local/geant4/  && \ 
 sudo mv /usr/local/geant4/geant4*.tar.gz ..  && \ 
-cd ..  && \
+cd ..  && \ 
 sudo tar -zxvf geant4*.tar.gz  && \ 
 sudo rm -rf geant4*.tar.gz  && \ 
 sudo apt install curl g++ libgl1-mesa-dev cmake libx11-dev libxext-dev libxtst-dev libxrender-dev libxmu-dev libxmuu-dev libhdf5-serial-dev hdf5-tools libexpat1 libexpat1-dev build-essential -y  && \ 
@@ -46,7 +46,7 @@ source ~/.bashrc  && \
 mkdir ~/geant4_ws && \ 
 cd ~/geant4_ws  && \ 
 cp -r /usr/local/geant4-install/share/Geant4/examples ~/geant4_ws && \ 
-cp -r  ~/geant4_ws/examples/basic/B1 ~/geant4_ws 
+cp -r  \~/geant4_ws/examples/basic/B1 ~/geant4_ws 
 
 4.打开vscode\
 安装好C++插件\
