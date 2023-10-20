@@ -2,18 +2,20 @@
 1.下载需要的软件包和数据包  
 下载root  
 https://root.cern/install/all_releases  
-![image](https://github.com/daoy939/geant4install/assets/65938631/0fa0ac9b-83bc-4e21-9626-72dff24ab0f6)
+![image](https://github.com/daoy939/geant4install/assets/65938631/6734d76d-83d0-4f95-adeb-d6f2b899c70a)
+
 
 下载geant4  
 https://geant4.web.cern.ch/download/all  
-![image](https://github.com/daoy939/geant4install/assets/65938631/d3f9473e-bb78-4ab5-b410-1ea74296e6c8)
+![image](https://github.com/daoy939/geant4install/assets/65938631/92519af2-9b90-452b-8924-a4cf6b381997)
+
 ___
 2.准备安装文件  
 在\~目录下面创建一个geant4的文件夹  
 将下载好的14个文件移动到这个文件夹下(~/geant4/)  
 ___
 3.打开终端，执行以下命令  
-ps:-j6换成自己电脑的核心数  
+ps:-j6换成自己电脑的核心数,先复制到记事本修改  
 cd ~  && \  
 sudo cp -r geant4/ /usr/local/  && \  
 cd /usr/local/geant4/  && \  
