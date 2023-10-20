@@ -34,12 +34,12 @@ cd /usr/local/geant4/  && \
 sudo mkdir -p /usr/local/geant4-install/share/Geant4/data  && \  
 sudo mv G4*.tar.gz /usr/local/geant4-install/share/Geant4/data  && \  
 cd /usr/local/geant4-install/share/Geant4/data  && \  
-sudo ls *.tar.gz | sudo xargs -n1 tar xzvf  && \  
-sudo rm -rf G4*.tar.gz  && \  
+sudo ls /*.tar.gz | sudo xargs -n1 tar xzvf  && \  
+sudo rm -rf G4/*.tar.gz  && \  
 cd /usr/local/geant4/  && \  
-sudo tar -zxvf root*.tar.gz  && \  
+sudo tar -zxvf root/*.tar.gz  && \  
 sudo mv root /usr/local/  && \  
-sudo rm -rf root*.tar.gz  && \  
+sudo rm -rf root/*.tar.gz  && \  
 sudo rm -rf /usr/local/geant4/ && \  
 echo "source /usr/local/root/bin/thisroot.sh" >> ~/.bashrc  && \  
 source ~/.bashrc  && \  
