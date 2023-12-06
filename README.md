@@ -53,12 +53,4 @@ ___
 4.打开vscode  
 安装好C++插件  
 打开文件夹，选择\~/geant4_ws/B1  
-按快捷键Ctrl+Shift+P调出命令面板，输入C/C++，选择“Edit Configurations(UI)”进入配置  
-在包含路径项添加/usr/local/geant4-install/lib  
-![image](https://github.com/daoy939/geant4install/assets/65938631/bc9bf449-bd0b-4a0a-8946-ea388352ab91)
-___
-建议将ubuntu的默认sh改为bash  
-(从ubuntu 6.10开始，默认使用dash)  
-在终端输入 
-sudo dpkg-reconfigure dash  
-然后选择No  
+build run
