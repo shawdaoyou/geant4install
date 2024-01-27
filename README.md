@@ -1,5 +1,5 @@
-# geant4的安装教程
-1.下载需要的软件包和数据包  
+# geant4安装教程
+1.下载安装包和数据包  
 下载root  
 https://root.cern/install/all_releases  
 ![image](https://github.com/daoy939/geant4install/assets/65938631/6734d76d-83d0-4f95-adeb-d6f2b899c70a)
