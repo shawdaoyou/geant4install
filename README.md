@@ -50,10 +50,10 @@ cd \~/geant4_ws  && \
 cp -r /usr/local/geant4-install/share/Geant4/examples \~/geant4_ws
 ___
 4.验证geant4
-cp -r  \~/geant4_ws/examples/basic/B1 \~/geant4_ws \ 
-cd \~/geant4_ws/B1 \ 
-mkdir build \ 
-cd build \ 
-cmake .. \ 
-make \ 
+cp -r  \~/geant4_ws/examples/basic/B1 \~/geant4_ws   
+cd \~/geant4_ws/B1  
+mkdir build   
+cd build   
+cmake ..   
+make  
 ./exampleB1
