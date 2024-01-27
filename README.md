@@ -12,7 +12,7 @@ https://geant4.web.cern.ch/download/all
 ___
 2.准备安装文件  
 在\~目录下面创建一个geant4的文件夹  
-将下载好的14个文件移动到这个文件夹下(\~/geant4/)  
+将下载好的14个压缩文件移动到这个文件夹下(\~/geant4/)  
 ___
 3.打开终端，执行以下命令  
 ps:-j6换成自己电脑的核心数,先复制到记事本修改  
@@ -47,10 +47,13 @@ echo "source /usr/local/root/bin/thisroot.sh" >> \~/.bashrc  && \
 source \~/.bashrc  && \  
 mkdir \~/geant4_ws && \  
 cd \~/geant4_ws  && \  
-cp -r /usr/local/geant4-install/share/Geant4/examples \~/geant4_ws && \  
-cp -r  \~/geant4_ws/examples/basic/B1 \~/geant4_ws  
+cp -r /usr/local/geant4-install/share/Geant4/examples \~/geant4_ws
 ___
-4.打开vscode  
-安装好C++插件  
-打开文件夹，选择\~/geant4_ws/B1  
-build run
+4.验证geant4
+cp -r  \~/geant4_ws/examples/basic/B1 \~/geant4_ws
+cd \~/geant4_ws/B1
+mkdir build
+cd build
+cmake ..
+make
+./exampleB1
